@@ -42,10 +42,29 @@ int main(){
     printf("Digite o numero de pontos turisticos: ");
     scanf("%d", &num_pontos_turisticos1);
 
+    printf("--- Cadastro da Carta 2 ---\n");
 
+    printf("Digite o estado (A-H): ");
+    scanf(" %c", &estado2);
 
+    printf("Digite o codigo da carta (Ex: B02): ");
+    scanf("%s", codigo_carta2);
 
+    printf("Digite o nome da cidade: ");
+    scanf(" %[^\n]", nome_cidade2);
 
+    printf("Digite a populacao: ");
+    scanf("%d", &populacao2);
+
+    printf("Digite a area (em km2): ");
+    scanf("%f", &area2);
+
+    printf("Digite o PIB: ");
+    scanf("%f", &pib2);
+
+    print("Digite o numero de pontos turisticos: ");
+    scanf("%d", &num_pontos_turisticos2);
+    
 
 
 }
