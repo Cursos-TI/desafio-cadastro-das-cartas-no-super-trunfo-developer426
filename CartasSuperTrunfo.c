@@ -74,6 +74,8 @@ int main(){
     scanf("%d", &num_pontos_turisticos2);
 
     // Cálculo Densidade Populacional e PIB per capita C2
+    densidade_populacional2 = populacao2 / area2;
+    pib_per_capita2 = pib2 / populacao2;
 
     printf("\n--- Cartas Cadastradas ---\n");
 
@@ -100,5 +102,4 @@ int main(){
     printf("PIB per capita: %.2f\n", pib_per_capita2);
 
     return 0;
-
 }
