@@ -85,8 +85,8 @@ int main(){
     printf("Area: %.0f km2\n", area1);
     printf("PIB: %.0f\n", pib1);
     printf("Numero de Pontos Turísticos: %d\n", num_pontos_turisticos1);
-    printf("Densidade Populacional: %.2f habitantes/km2\n", densidade_populacional1);
-    printf("PIB per Capita: %.2f\n", pib_per_capita1);
+    printf("Densidade Populacional: %.2f habitantes/km2\n", densidade_populacional1); // Resolução para densidade populacional Carta 1
+    printf("PIB per Capita: %.2f\n", pib_per_capita1); // Resolução para PIB per Capita Carta 2
 
     printf("\n--- Carta 2 ---\n");
     printf("Estado: %c\n", estado2);
