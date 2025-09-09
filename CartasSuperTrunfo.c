@@ -37,7 +37,7 @@ int main(){
     scanf(" %[^\n]", nome_cidade1); // Realiza a linha inteira
 
     printf("Digite a populacao: ");
-    scanf("%d", &populacao1);
+    scanf("%lu", &populacao1); // '%lu' é utilizado para 'unsigned long int'
 
     printf("Digite a area (em km2): ");
     scanf("%f", &area1);
@@ -49,8 +49,8 @@ int main(){
     scanf("%d", &num_pontos_turisticos1);
 
     // Cálculo Densidade Populacional e PIB per capita C1
-    densidade_populacional1 = populacao1 / area1;
-    pib_per_capita1 = pib1 / populacao1;
+    densidade_populacional1 = (float)populacao1 / area1;
+    pib_per_capita1 = pib1 / (float)populacao1;
 
     printf("--- Cadastro da Carta 2 ---\n");
 
@@ -64,7 +64,7 @@ int main(){
     scanf(" %[^\n]", nome_cidade2);
 
     printf("Digite a populacao: ");
-    scanf("%d", &populacao2);
+    scanf("%lu", &populacao2); // '%lu' é utilizado para 'unsigned long int'
 
     printf("Digite a area (em km2): ");
     scanf("%f", &area2);
@@ -76,8 +76,10 @@ int main(){
     scanf("%d", &num_pontos_turisticos2);
 
     // Cálculo Densidade Populacional e PIB per capita C2
-    densidade_populacional2 = populacao2 / area2;
-    pib_per_capita2 = pib2 / populacao2;
+    densidade_populacional2 = (float)populacao2 / area2;
+    pib_per_capita2 = pib2 / (float)populacao2;
+
+    
 
     printf("\n--- Cartas Cadastradas ---\n");
 
