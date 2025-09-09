@@ -5,23 +5,25 @@ int main(){
     char estado1;
     char codigo_carta1[4];
     char nome_cidade1[50];
-    int populacao1;
+    unsigned long int populacao1; // 'int' foi substituido por 'unsigned long int'
     float area1;
     float pib1;
     int num_pontos_turisticos1;
     float densidade_populacional1;
     float pib_per_capita1;
+    float super_poder1; // Variável para o novo atributo Carta 1
 
     // Declaração das variáveis Carta 2
     char estado2;
     char codigo_carta2[4];
     char nome_cidade2[50];
-    int populacao2;
+    unsigned long int populacao2; // 'int' foi substituido por 'unsigned long int'
     float area2;
     float pib2;
     int num_pontos_turisticos2;
     float densidade_populacional2;
     float pib_per_capita2;
+    float super_poder2; // Variável para o novo atributo Carta 2
 
     printf ("--- Cadastro de Carta 1 ---\n");
     
