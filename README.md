@@ -85,6 +85,21 @@ No nível Mestre, você implementará a comparação entre duas cartas e o cálc
 
 **Observação:**  Preste atenção à conversão de tipos ao calcular o Super Poder!
 
+## 🏆 Nível Aventureiro: Interatividade no Super Trunfo
+
+No nível Aventureiro, você irá implementar a interação do usuário com a comparação das Cartas Super Trunfo.
+
+⚙️ **Funcionalidades do Sistema:**
+
+*   Possibilidade do usuário interagir com o programa, escolhendo com qual alternativa deseja interagir;
+*   Logo após o usuário escolhendo a opção desejada, a comparação dos atributos é realizada informando o vencedor;
+*   Caso seja escolhida uma opção indisponível, o sistema informa ao usuário.
+
+📥 **Entrada** e 📤 **Saída de Dados:**
+
+*   Para realizar a lógica de comparação, foi utilizado o 'Switch';
+*   Foi utilizado o metodo 'case' para separar um atributo do outro.
+
 
 ## 🏁 Conclusão
 
