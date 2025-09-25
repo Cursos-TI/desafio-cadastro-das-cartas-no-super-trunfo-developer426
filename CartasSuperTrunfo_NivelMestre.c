@@ -121,5 +121,10 @@ int main(){
     printf("Digite a sua escolha: ");
     scanf("%d", &escolha_atributo1);
 
+    // Validação da primeira escolha
+    if (escolha_atributo1 < 1 || escolha_atributo2 > 6){
+        printf("Opção inválida. Fim do programa.\n");
+        return 1; // Finaliza o programa caso a primeira escolha seja inválida
+    }
 
 }
