@@ -110,7 +110,16 @@ int main(){
     float valor_attr1_carta1, valor_attr1_carta2;
     float valor_attr2_carta1, valot_attr2_carta2;
 
-    
+    // Menu primeiro atributo
+    printf("\n--- Escolha o primeiro atributo para comparação ---\n");
+    printf("1. População\n");
+    printf("2. Área\n");
+    printf("3. PIB\n");
+    printf("4. Pontos Turísticos\n");
+    printf("5. Densidade Populacional\n");
+    printf("6. PIB per capita\n");
+    printf("Digite a sua escolha: ");
+    scanf("%d", &escolha_atributo1);
 
 
 }
