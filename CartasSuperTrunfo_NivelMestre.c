@@ -110,7 +110,7 @@ int main(){
     float valor_attr1_carta1, valor_attr1_carta2;
     float valor_attr2_carta1, valot_attr2_carta2;
 
-    // Menu primeiro atributo
+    // Menu para a escolha do primeiro atributo
     printf("\n--- Escolha o primeiro atributo para comparação ---\n");
     printf("1. População\n");
     printf("2. Área\n");
@@ -126,5 +126,25 @@ int main(){
         printf("Opção inválida. Fim do programa.\n");
         return 1; // Finaliza o programa caso a primeira escolha seja inválida
     }
+
+    // Menu para a escolha do segundo atributo
+    do {
+        printf("\n--- Escolha o segundo atributo para comparação ---\n");
+        if (escolha_atributo1 != 1) printf("1. População\n");
+        if (escolha_atributo1 != 2) printf("2. Área\n");
+        if (escolha_atributo1 != 3) printf("3. PIB\n");
+        if (escolha_atributo1 != 4) printf("4. Pontos Turísticos\n");
+        if (escolha_atributo1 != 5) printf("5. Densidade Populacional\n");
+        if (escolha_atributo1 != 6) printf("6. PIB per capita\n");
+        printf("Digite a sua escolha: ");
+        scanf("%d", &escolha_atributo2);
+
+        if (escolha_atributo2 == escolha_atributo1){
+            printf("\nVocê não pode escolher o mesmo atributo duas vezes. Tente novamente\n");
+        } else if (escolha_atributo2 < 1 || escolha_atributo2 6){
+            printf("\nOpção inválida. Tente novamente.\n");
+        }
+    } while (escolha_atributo2 == escolha_atributo1 || escolha_atributo2 < 1 || escolha_atributo2 > .6);
+    
 
 }
