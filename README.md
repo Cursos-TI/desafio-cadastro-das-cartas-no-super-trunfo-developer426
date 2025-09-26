@@ -100,6 +100,26 @@ No nível Aventureiro, você irá implementar a interação do usuário com a co
 *   Para realizar a lógica de comparação, foi utilizado o 'Switch';
 *   Foi utilizado o metodo 'case' para separar um atributo do outro.
 
+## 🏆 Nível Mestre: Implementando Comparações Avançadas com Atributos Múltiplos em C
+
+No Desenvolvimento da lógica do jogo NÍVEL MESTRE, você implementará a lógica de comparação entre dois atributos.
+
+🆕 **Diferença em relação ao Nível Aventureiro:**
+
+*   **Comparação de atributos:** O usuário poderá escolher 2 atributos a serem comparados.
+*   **Escolha de atributo:** Menu interativo que permite ao usuário realizar a escolha.
+
+⚙️ **Funcionalidades do Sistema:**
+
+*   Escolha do atributo: permite ao usuário escolher 2 atributos da sua escolha para realizar a comparação.
+*   O sistema irá somar os valores dos atributos para cada carta escolhida. Vence a carta que tiver a maior soma.
+*   Após o primeiro atributo de comparação ser escolhido pelo usuário, o mesmo não estará mais disponível na seleção do segundo atributo.
+
+📥 **Entrada** e 📤 **Saída de Dados:**
+
+*   No cálculo da densidade populacional e PIB per capita, foi utilizado o tipo 'float'.
+*   A saída mostrara a escolha do atributo escolhido, caso o usuário tente escolher o mesmo atributo 2 vezes, será apresentada uma mensagem de erro.
+
 
 ## 🏁 Conclusão
 

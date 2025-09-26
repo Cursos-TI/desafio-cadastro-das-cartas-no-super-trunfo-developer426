@@ -221,11 +221,12 @@ int main(){
     float soma_carta1 = valor_attr1_carta1 + valor_attr2_carta1;
     float soma_carta2 = valor_attr1_carta2 + valor_attr2_carta2;
 
-    // Exibição do resultado
+    // Exibição do resultado final
     printf("\n--- Comparação final das Cartas ---\n");
     printf("Cidades: %s vs %s\n", nome_cidade1, nome_cidade2);
     printf("Atributos escolhidos: %s e %s\n", nome_atributo1, nome_atributo2);
 
+    
     printf("\n--- Carta: %s ---\n", nome_cidade1);
     printf("%s: %.2f\n", nome_atributo1, valor_attr1_carta1);
     printf("%s: %.2f\n", nome_atributo2, valor_attr2_carta1);
